@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 245, 240);
+}
+body{
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(236, 228, 240);
+}
+.code{
+    background-color: rgb(142, 85, 180);
+    padding: 2px 5px ;
+    margin: 10px 5px;
+    font-size: 15px;
+    color: red;
+}
+header{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 5px;
+    margin: 4px;
+    color: blue;
+}
+p{
+    padding: 5px 0px;
+}
+.main-section{
+    margin: 8px 4px;
+    padding : 1px 14px;
+    width: 100%;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+/*navbar section*/
+#navbar{
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.nav-link{
+    display: block;
+    margin: 1px 2px;
+    padding: 8px 8px;
+    text-decoration: none;
+    color: rgb(14, 11, 11);
+    font-size: 22px;
+    background-color: darkslategrey;
+}
+#main-doc{
+    margin-left: 220px;
+}
+#navbar a:hover:not(.active){
+    background-color: rgb(49, 8, 27) !important;
+    color: white;
+}
+#navbar a:active{
+    background-color: rgb(0, 0, 54) !important;
+    color: antiquewhite;
+}
+header{
+    background-color: rgb(112, 206, 206);
+}
+@media screen and (max-width:768px){
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #navbar > header{
+        text-align: center;
+    }
+    #navbar a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #main-doc{margin-left: 0px;}
+}
+@media screen and (max-width:440px){
+
+    #navbar > header{
+        text-align: center;
+}
+}

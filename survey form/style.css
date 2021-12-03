@@ -1,0 +1,79 @@
+body{
+    padding: 2px;
+    margin: 0px;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(medical-or-scientific-research-background-vector-24979467.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#survey-form{
+    padding: 5px 5px;
+    width: 90%;
+    background-color: rgb(25, 25, 71);
+    opacity: 80%;
+    border-radius: 10px;
+    color: beige;
+    font-size: 19px;
+    margin: 5px;
+    box-shadow: 4px;
+    display: flex;
+    align-items: center;
+
+}
+.design{
+    border-radius: 12px;
+    padding: 20px;
+}
+#main{
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 2px ;
+    margin: auto;
+    width: 50%;
+}
+
+#email ,#number,#name{
+    border-radius: 4px;
+    width:100%;
+    height: 30px;
+}
+
+#dropdown{
+    border-radius: 4px;
+    width:100%;
+    height: 30px;
+}
+#submit{
+    width: 100%;
+    height:40px;
+    background-color: rgb(22, 121, 22);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 19px;
+    text-align: center;
+    cursor: pointer;
+}
+#submit:hover{
+    transform: scale(1.05);
+}
+.Title{
+    padding: 0px 10px;
+    text-align: center;
+
+}
+textarea{
+    border-radius: 4px;
+    width:100%;
+
+}
+@media screen and (max-width:600px) {
+    #main{
+        font-size: 14px;
+        padding: 2px;
+        margin: 2px;
+        width: 100%;
+    }
+}
+

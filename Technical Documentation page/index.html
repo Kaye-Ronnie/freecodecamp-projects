@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="pageWrapper">
+            <nav id="navbar">
+                <header>PYTHON DOCUMENTATION</header>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+                <a class="nav-link" href="#Installing_Python">Installing Python</a>
+                <a class="nav-link" href="#first_program">First Program</a>
+                <a class="nav-link" href="#python_interpreter">Python Interpreter</a>
+                <a class="nav-link" href="#Variables"> Variables </a>
+                <a class="nav-link" href="#Datatypes">Datatypes</a>
+                <a class="nav-link" href="#if_statements"> If Statements</a>
+                <a class="nav-link" href="#python_libraries">Python libraries</a>
+            </nav>
+            <main id="main-doc">
+               <section class="main-section" id="Introduction">
+                   <header>Introduction</header>
+                   <article>
+                       <p>Python is an excellent programming language which was created in the early 1990s by Guido van Rossum at Stichting Mathematisch Centrum in the Netherlands .
+                           In 2001, the Python Software Foundation (PSF, see<a href="https://www.python.org/psf/"> https://www.python.org/psf/</a>) was formed, a non-profit organization 
+                           created specifically to own Python-related Intellectual Property. </p>
+                       <p>why you shoul learn and use python programming language?</p>
+                        <ul>
+                            <li>Python is an open source programming language.</li>
+                            <li>It's easy to read,learn and write i.e doesn't take long to create a working meaning full program </li>
+                            <li>Python has an extensive library of predefined functions that you can use to facilitate most common computer tasks</li>
+                            <li>Python can be installed and run on most operating systems including Windows, Mac OS X, or OS/2, linux and Unix</li>
+                        </ul>
+                   </article>
+                </section>
+
+               <section class="main-section" id="Installing_Python">
+                <header>Installing Python</header>
+                <article>
+                    <p>
+                        Go to <a href="www.python.org">www.python.org</a> and download the latest version of Python (version 3.9.0) both 64 bit and 32 bit.
+                        It should be painless to install. If you have a Mac or Linux, you may already have Python on your
+                        computer, though it may be an older version. If it is version 2.7 or earlier, then you should install
+                        the latest version, as many of the programs in this book will not work correctly on older versions</p>
+                    <P>IDLE: simple integrated development environment (IDE) that comes with Python. It’s a program that allows you to type in your programs and run them.
+                         There are other IDEs for Python, but for now I would suggest sticking with IDLE as it is simple to use.</P>
+                </article>
+                </section>
+
+                <section class="main-section" id="first_program">
+                    <header>First program</header>
+                    <article>
+                        <p>The first python function you ever encounter is <strong>print( )</strong> function. which we will
+                        use in our first program called <u>Hello.py</u>. the [.py] is the file extention for python programs </p>
+                        <p>In the IDLE click on file button > new file to open new file where you will save your first program below and run it in the python interpreter.</p>
+                        <div class="code">
+                            <code>
+                                print("Hello world!")    <br>     
+                                Hello world! 
+                           </code>
+                        </div>
+
+                    </article>
+
+                </section>
+
+                <section class="main-section" id="Variables">
+                    <header> Variables</header>
+                    <article>
+                       <p>Variables just like in other programming languages, its role is to remember a value from some part of program. Technically
+                           they store valuables. Variables are declared using assignment operator (=) i.e  Age = 20;</p>
+                        <p>Variables have a few rules to be followed </p>
+                        <ul>
+                            <li>variable names can contain letters, numbers, and the underscore</li>
+                            <li>Variable names cannot contain spaces. for instance <s>first name</s> but first_name/first-name</li>
+                            <li> Variable names cannot start with a number.</li>
+                            <li> Case sensitve for instance, <em>age</em> and Temp <em>Age</em> are different.</li>
+                        </ul>
+                        <div class="code">
+                            <code>
+                                pi = int(22 / 7); //pi is variable with value of got from solution <br>
+                                Diameter = 14;        // Diameter is variable storing a value 14  <br>
+                                radius = Diameter/2;      <br>
+                                Area = pi *(radius**2)     <br>
+                                print('Area is ', Area)     <br>
+                            </code>
+                        </div>
+                    </article>
+
+                </section>
+
+                <section class="main-section" id="python_interpreter">
+                    <header>Python interpreter</header>
+                    <article>
+                        <p>It's the interactive interface to python, which you cann use as a calculator.
+                           python prompts with ">>>" in its interpreter.
+                        </p>
+                        <div class="code">
+                            <code>
+                                >>> 4*(5+3)<br>
+                                32<br>
+                                >>> print('My name is ronnie.')<br>
+                                My name is ronnie.
+                            </code>
+                        </div>
+
+                    </article>
+
+                </section>
+
+                <section class="main-section" id="Datatypes">
+                    <header>Datatypes</header>
+                    <article>
+                        <p> Datatypes tell python language which form information is to be used, they are as follow </p>
+                        <ul>
+                            <li>Strings are data type that deal with text. e.g first_name ="Ronnie"</li>
+                            <li>Numbers are data types that deal with number. e.g Brain_age = 20</li>
+                            <li>Boolean datatype there only two i.e Truth or Fare (used capital first letters in them) </li>
+                            <li>List datatypes used to group elements and it can contain other data type i.e Mylist =["ronnie", 23,False,"boss"] </li>
+                        </ul>
+                        <div class="code">
+                            <code>
+                                Ronnie = "i am aged";   // string <br>
+                                age = 23;               //number   <br>
+                                programmer= True;        //Boolean<br>
+
+                                Print(Ronnie,"",23,"years )        <br>
+
+                            </code>
+                        </div>
+
+                    </article>
+
+                </section>
+
+                <section class="main-section" id="if_statements">
+                    <header>If Statements</header>
+                    <article>
+                        <p>Quite often in programs we only want to do something provided something else is true. Python’s if statement is what we need</p>
+                        <p>If statements work with conditional operators and some are listed below</p>
+                        <p>  if [condition] : <br>
+                            {statement/output}     <br>
+                            else: [statement/output]
+                        </p>
+                        <ul>
+                            <li> if p > 4   : if p is greater than 4</li>
+                            <li> if p >= 4  : if p is greater than or equal 4</li>
+                            <li> if p <= 4  : if p is less than or equal to 4</li>
+                            <li> if p == 4  : if p is equal to 4  (for equal to ; use == not =)</li>
+                            <li> if p != 4  : if p is not equal  to 4</li>
+                        </ul>
+                        <div class="code">
+                            <code>
+                                if p > 4: <br>
+                                   print('p is greater than 4');  <br>
+                                else:                              <br>
+                                   Print('P is less than or equal to 4');
+                            </code>
+                        </div>
+
+                    </article>
+
+                </section>
+                
+                <section class="main-section" id="python_libraries">
+                    <header>Python libraries </header>
+                    <article>
+                        <p>Python has a number of libraries that can install to enable it do more activities.</p>
+                        <ul>
+                            <li>Numpy <a href="http://numpy.scipy.org/">http://numpy.scipy.org/</a></li>
+                            <li>Matplotlib <a href="http://matplotlib.sourceforge.net/">http://matplotlib.sourceforge.net/</a></li>
+                            <li> PyFITS <a href="http://www.stsci.edu/resources/Software_hardware/pyfits">http://www.stsci.edu/resources/Software_hardware/pyfits</a></li>
+                            <li> Python(x,y) <a href="http://www.pythonxy.com">http://www.pythonxy.com</a></li>
+                        </ul>
+                    </article>
+
+                </section>
+ 
+
+            </main>
+        </div>
+    </body>
+</html>
